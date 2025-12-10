@@ -1,18 +1,48 @@
-# Python
+# =====================
+# PYTHON / DJANGO
+# =====================
 __pycache__/
-*.pyc
-
-# Django
+*.py[cod]
+*.sqlite3
 db.sqlite3
-/static/
+*.log
+*.pot
+*.pyc
 media/
+staticfiles/
+static/
 
-# Environment
+# Django secret env files
+.env
+.env.local
+.env.*.local
+
+# =====================
+# VENV
+# =====================
 venv/
-.env
+env/
+.venv/
 
-# VSCode
+# =====================
+# NODE / NEXT.JS
+# =====================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# =====================
+# VS CODE / SYSTEM
+# =====================
 .vscode/
+*.DS_Store
+Thumbs.db
 
-.env
-backend/.env
+# =====================
+# CACHE
+# =====================
+*.cache
+*.pytest_cache/
