@@ -50,9 +50,11 @@ export default function Home() {
           </div>
 
           <div className="rounded-xl border border-gray-200 p-5">
+          
             <h2 className="text-lg font-semibold">Thai + English</h2>
             <p className="mt-2 text-gray-600">
               Lessons explained in both languages for Thai learners.
+              I love it very much
             </p>
           </div>
         </div>
