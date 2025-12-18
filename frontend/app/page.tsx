@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -31,6 +33,13 @@ export default function Home() {
           >
             YouTube
           </a>
+
+          <Link
+            href="/about"
+            className="rounded-full border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700 hover:bg-gray-100"
+          >
+            About
+          </Link>
         </div>
 
         {/* SIMPLE FEATURE LIST */}
